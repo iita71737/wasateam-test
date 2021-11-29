@@ -1,0 +1,101 @@
+/* reset css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: var(--main-dark);
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  line-height: 0.9;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto 3rem auto;
+}
+
+/* basic setting */
+
+:root {
+  --main-dark: #9df5f8;
+  --grey-1: #e4e4e4;
+  --background-grey: #a2d7f7;
+  --main-color: transparent;
+  --border-color: #e4e4e4;
+  --zebra-color: #575757;
+  --header-color: #2e2e2e;
+  --table-grey-text: rgba(255, 255, 255, 37%);
+  --white: white;
+  --main-text-color: white;
+  --header-text-color: #aaaaaa;
+  --table-background-color: #3a3a3a;
+}
+
+// dark mode color
+[data-theme="green"] {
+  --main-dark: #a9f79f;
+  --grey-1: #e4e4e4;
+  --background-grey: #b0f8dc;
+  --main-color: transparent;
+  --border-color: #e4e4e4;
+  --zebra-color: #575757;
+  --header-color: #2e2e2e;
+  --table-grey-text: rgba(255, 255, 255, 37%);
+  --white: white;
+  --main-text-color: white;
+  --header-text-color: #aaaaaa;
+  --table-background-color: #3a3a3a;
+}
+
+[data-theme="yellow"] {
+  --main-dark: #e9f393;
+  --grey-1: #e4e4e4;
+  --background-grey: #e1f392;
+  --main-color: transparent;
+  --border-color: #e4e4e4;
+  --zebra-color: #575757;
+  --header-color: #2e2e2e;
+  --table-grey-text: rgba(255, 255, 255, 37%);
+  --white: white;
+  --main-text-color: white;
+  --header-text-color: #aaaaaa;
+  --table-background-color: #3a3a3a;
+}
+
+.card-header {
+  background-color: var(--main-dark);
+}
