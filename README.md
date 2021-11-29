@@ -13,12 +13,9 @@ yarn serve
 yarn build
 ```
 ### Firebase Deploy Host
-```
-(https://test-deploy-cbeaf.web.app)
+[firebase host](https://test-deploy-cbeaf.web.app)
 
-```
 ### 前測需求描述
-
 ```
 1. 用Vue Cli或Nuxt 完成以下功能  
 2. 以scss撰寫內容樣式
