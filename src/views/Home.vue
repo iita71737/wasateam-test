@@ -58,6 +58,14 @@ export default {
       listData: "",
     };
   },
+  computed: {
+    changeType: function () {
+      return this.typeProps;
+    },
+    apiData: function () {
+      return this.listData;
+    },
+  },
   created() {
     this.fetchAPI();
   },
