@@ -12,6 +12,9 @@ yarn serve
 ```
 yarn build
 ```
+
+### 前測需求描述
+
 ```
 1. 用Vue Cli或Nuxt 完成以下功能  
 2. 以scss撰寫內容樣式
@@ -27,14 +30,22 @@ yarn build
 12. 提供Github程式碼
 ```
 
+### 前測作答想法
 ```
-#1.我是以vue-cli產生專案，且專案為vue2版本，因為我對於nuxt不熟悉，目前只知道是協助SPA應用程式包裝成SSR，以利解決SEO的框架套件。
+#1.我是以vue-cli產生專案，且專案為vue2版本，因為我對於nuxt不熟悉，
+目前只知道是協助SPA應用程式包裝成SSR，以利解決SEO的框架套件。
 
-#2.我依照需求，將 輸入類型 作為一個可重複利用的component,透過父組件傳遞的props來改變子組件要渲染的 輸入類型
+#2.我依照需求，將 輸入類型 作為一個可重複利用的component,
+透過父組件傳遞的props來改變子組件要渲染的 輸入類型
 
-#3.我雖然在scss檔設定了不同的data-theme，對應不同主題顏色，但自認感覺在vue組件去操作DOM(document.documentElement.setAttribute)這種方式好像不是很理想？雖然畫面應該有改變，但感覺好像有更好的方式去改變。
+#3.我雖然在scss檔設定了不同的data-theme，對應不同主題顏色，
+但自認感覺在vue組件去操作DOM(document.documentElement.setAttribute)這種方式好像不是很理想？
+雖然畫面應該有改變，但感覺好像有更好的方式去改變。
 
-#4.因為第一次用firebase hosting,所以僅只於按照網路上的資料，在firebase創建專案與部署空間後，透過npm run build打包成靜態檔案，透過firebase deploy直接部署。
+#4.因為第一次用firebase hosting,所以僅只於按照網路上的資料，
+在firebase創建專案與部署空間後，
+透過npm run build打包成靜態檔案，
+透過firebase deploy直接部署。
 ```
 
 
