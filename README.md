@@ -14,7 +14,7 @@ yarn build
 ```
 ### Firebase Deploy Host
 ```
-https://test-deploy-cbeaf.web.app
+(https://test-deploy-cbeaf.web.app)
 
 ```
 ### 前測需求描述
